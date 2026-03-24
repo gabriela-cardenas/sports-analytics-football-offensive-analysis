@@ -1,4 +1,17 @@
-# Offensive Performance and Home Advantage in European Football
+# Sports Analytics Portfolio Projects
+
+This repository contains sports analytics projects focused on football performance analysis using Python, SQL, and data visualization.
+
+The goal of these projects is to explore match and player performance through structured analysis, clear visualizations, and interpretable insights.
+
+## Tools Used
+- Python
+- Pandas
+- SQlite
+- Matplotlib
+- Jupyter Notebook
+  
+# Project 1: Offensive Performance and Home Advantage in European Football
 
 ## Overview
 
@@ -6,78 +19,83 @@ This project explores offensive performance and match outcomes across European f
 
 The analysis focuses on identifying goal-scoring patterns, evaluating home advantage, and comparing offensive production across teams.
 
-## Objective
+### Main questions
 
-- Analyze differences in goal production across leagues  
-- Evaluate the strength of home advantage  
-- Identify top-performing offensive teams  
+- Which leagues have the highest average goals per match?
+- How strong is home advantage?
+- Which teams produce the highest number of goals
 
-## Dataset
+### Key Insights
+- Goal-scoring patterns are relatively consistent across leagues
+- Home teams win significantly more often than away teams
+- Offensive production is concentrated among a small number of clubs
+ 
+ 
+### Visualizations
 
-The dataset contains historical football match data from multiple European leagues.
-
-Key tables used:
-- Match  
-- League  
-- Team  
-
-Data was extracted using SQL and analyzed using Python (pandas).
-
-##  Tools & Technologies
-
-- Python  
-- Pandas  
-- SQLite  
-- Matplotlib  
-- Jupyter Notebook  
-
-## Analysis
-
-### 1. Goal Patterns Across Leagues
-
-- Average goals per match are relatively consistent across leagues  
-- No strong outliers observed  
-- Offensive output is similar across competitions  
+#### Average Goals per Match by League
 
  ![Goals by League](images/goals_by_league.png)
 
-### 2. Home Advantage
-
-- Home teams win ~46% of matches  
-- Away teams win ~29%  
-- Draws account for ~25%  
-
-- Strong home advantage observed  
-- However, over 50% of matches do not result in a home win  
+#### Match Result Distribution
 
  ![Match Results](images/match_results_distribution.png)
 
-### 3. Top Scoring Teams
-
-- FC Barcelona, Real Madrid, and Celtic rank among the top  
-- Offensive output is concentrated among top clubs  
-- Reflects competitive imbalance in leagues  
-
+#### Top Scoring Teams
+ 
  ![Top Teams](images/top_scoring_teams.png)
-
-## Key Insights
-
-- Goal-scoring patterns are consistent across leagues  
-- Home advantage is significant but not decisive  
-- A small number of teams dominate offensive production  
-
+ 
 ## Limitations
 
 - Does not include expected goals (xG)  
 - No player-level performance analysis  
 - Limited temporal analysis  
 
-## Next Steps
+## Project 2: Player Efficiency Analysis using Expected Goals (xG)
+ 
+### Overview
 
-- Incorporate xG for deeper analysis  
-- Add player-level data  
-- Analyze trends over time  
-- Expand to defensive metrics  
+This project evaluates player-level offensive efficiency across Europe’s top 5 leagues using expected goals (xG) as a measure of chance quality.
+
+### Main questions
+
+- Which players score more than expected based on xG?
+- How strong is the relationship between xG and actual goals?
+- Which players stand out as overperformers?
+
+### Key insights
+
+- xG shows a strong positive relationship with actual goals
+- Most players perform close to expected levels
+- A small group of players significantly outperform their xG
+- Overperformance may reflect finishing skill, but also variance
+
+### Visualizations
+
+#### xG vs Goals
+![xG vs Goals](player_xg_analysis/images/xg_vs_goals.png)
+
+#### xG vs Goals with Top Overperformers Highlighted
+![xG vs Goals Labeled](player_xg_analysis/images/xg_vs_goals_labeled.png)
+
+### Files
+
+- `player_xg_analysis/notebooks/player_xg_analysis.ipynb`
+
+## 📌 Notes
+
+- Large raw database files were excluded from the repository to comply with GitHub file limits.
+- The focus of this repository is on analysis, interpretation, and visualization.
+
+## 🚀 Next Steps
+
+Future projects may include:
+
+- player-level per 90 analysis
+- underperformer analysis
+- multi-season comparisons
+- defensive metrics
+- interactive dashboards
 
 ## Author
 
