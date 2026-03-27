@@ -1,0 +1,12 @@
+Bottleneck @ file:///C:/miniconda3/conda-bld/bottleneck_1761938096667/work
+mkl-service==2.5.2
+mkl_fft @ file:///C:/miniconda3/conda-bld/mkl_fft_1761592981169/work
+mkl_random @ file:///C:/miniconda3/conda-bld/mkl_random_1761593075610/work
+numexpr @ file:///C:/miniconda3/conda-bld/numexpr_1762165723970/work
+numpy @ file:///C:/miniconda3/conda-bld/numpy_and_numpy_base_1761579405538/work/dist/numpy-2.2.5-cp310-cp310-win_amd64.whl#sha256=074bffd27eaf24d54337a4bac76b167c7d794ddb6a813f6fa3fb37c91af766a8
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049101700/work
+pandas @ file:///C:/miniconda3/conda-bld/pandas_1762332399653/work/dist/pandas-2.3.3-cp310-cp310-win_amd64.whl#sha256=25368e0adc93a7db0f3983502b4e57344f71af8f45ca3849f7c3833738f306aa
+python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
+pytz @ file:///C:/Users/task_177304302224694/croot/pytz_1773043111941/work
+six @ file:///C:/b/abs_149wuyuo1o/croot/six_1744271521515/work
+tzdata @ file:///home/task_176829656558347/croot/python-tzdata_1768296637279/work
